@@ -17,15 +17,12 @@ If you have any feedback or run into issues, please file an issue on this reposi
 * Python (2.7.13, 32 bit)
 * PyHook <https://sourceforge.net/projects/pyhook/>
 * PyWin32 <https://sourceforge.net/projects/pywin32/>
-* requests 
+* Requests <docs.python-requests.org/>
 
 
 ### Installing
 
-Download and Install Python
-
-After installing, add _C:\Python27\_ and _C:\Python27\Scripts_ to the _Path_ env variable
-
+After installing Python, add _C:\Python27_ and _C:\Python27\Scripts_ to the _Path_ env variable
 Download and Install pyHook and pyWin32 from the links provided
 
 To install requests, clone their repo and use pip command for installation
@@ -34,19 +31,18 @@ To install requests, clone their repo and use pip command for installation
 $ git clone git://github.com/requests/requests.git
 $ cd requests
 $ pip install .
- 
 ```
 
-For the online variant, you can either start a free web hosting account with [Hostinger](https://www.hostinger.in/) or [000WebHost] (https://in.000webhost.com/cpanel-login)
+For the online variant, you can either start a free web hosting account with [Hostinger](https://www.hostinger.in/) or [000WebHost](https://in.000webhost.com/cpanel-login/)
 You can also use **xampp** or **wamp** to test it out in your local machine.
-After you setup your server, copy the contents of _server_side_scripts_ to _C:\xampp\htdocs\_ or the _root_ folder in your hosting website.
+After you setup your server, copy the contents of **server_side_scripts** to _C:\xampp\htdocs_ or the _root_ folder in your hosting website.
 
-*** Note that for the offline variant, these steps are not needed***
+___Note that for the offline variant, these steps are not needed___
 
 Once everything is set, run the _keylogger.py_ file
 
 Now all your keystrokes will be logged into the server with a _<ipaddr>.txt_ format
-You can view the file from the link <http://<your_server_name>/post/view.php>
+You can view the file from the link <http://your_server_name/post/view.php>
 
 ## Compatability with Linux
 
