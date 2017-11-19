@@ -33,16 +33,16 @@ $ cd requests
 $ pip install .
 ```
 
-For the online variant, you can either start a free web hosting account with [Hostinger](https://www.hostinger.in/) or [000WebHost](https://in.000webhost.com/cpanel-login/).
-You can also use **xampp** or **wamp** to test it out in your local machine.
-After you setup your server, copy the contents of **server_side_scripts** folder to _C:\xampp\htdocs_ or the _root_ folder in your hosting website.
+* For the online variant, you can either start a free web hosting account with [Hostinger](https://www.hostinger.in/) or [000WebHost](https://in.000webhost.com/cpanel-login/).
+* You can also use **xampp** or **wamp** to test it out in your local machine.
+* After you setup your server, copy the contents of **server_side_scripts** folder to _C:\xampp\htdocs_ or the _public_html_ folder in your hosting website.
 
-___Note that for the offline variant, these steps are not needed___
+___Note that you can ignore these steps if your are using the offline version___
 
 Once everything is set, run the _keylogger.py_ file
 
 Now all your keystrokes will be logged into the server with a _<ipaddr>.txt_ format
-You can view the file from the link <http://your_server_name/post/view.php>
+You can view the file from the link <http://your_server_name/logger/view.php>
 
 There is a kill-switch designed into the program. Pressing two times the ___back quote key___ (`) will stop the program execution.
 
