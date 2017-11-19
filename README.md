@@ -1,5 +1,5 @@
 # python-keylogger
-A key-logger written in python using pyHook and pyWin32 modules.
+A keylogger written in python using pyHook and pyWin32 modules.
 
 
 ## Getting Started
@@ -7,7 +7,7 @@ A key-logger written in python using pyHook and pyWin32 modules.
 Download the zip or Clone the repo to start working with this project. 
 
 This keylogger has 2 variants (online and offline).
-The offline version can be found inside the archive folder, which simply outpus the keystrokes into a text file
+The offline version can be found inside the archive folder, which simply outputs the keystrokes into a text file.
 Whereas the online variant, makes POST requests to a remote server which stores the input data.
 
 If you have any feedback or run into issues, please file an issue on this repository.
@@ -33,23 +33,23 @@ $ pip install requests
 
 * For the online variant, you can either start a free web hosting account with [Hostinger](https://www.hostinger.in/) or [000WebHost](https://in.000webhost.com/cpanel-login/).
 * You can also use **xampp** or **wamp** to test it out in your local machine.
-* After you setup your server, copy the contents of **server_side_scripts** folder to _C:\xampp\htdocs_ or the _public_html_ folder in your hosting website.
+* After setting up your server, copy the contents of **server_side_scripts** folder to _C:\xampp\htdocs_ in your PC or the _public_html_ folder in your hosting website.
 
 * ___Note that you can ignore these steps if your are using the offline version___
 
 Once everything is set, run the _keylogger.py_ file
 
-Now all your keystrokes will be logged into the server with a _<ipaddr>.txt_ format
-You can view the file from the link <http://your_server_name/logger/view.php>
+Now all your keystrokes will be logged into a file on the server.
+You can view it from the link <http://your_server_name/logger/view.php>
 
-There is a kill-switch designed into the program. Pressing two times the ___back quote key___ will terminate the program execution.
+The ___back quote key___ acts as a kill switch to the program, which on presing two times, terminate the program execution.
 
 ## Compiling the python into an executable
 
-For practical purposes, its alwasy necessary to convert the .py scripts into .exe files.
-There are a dozen of tools available for this conversion.
+For practical purposes, its always necessary to convert the .py scripts into .exe files.
+There are a dozen tools available for this conversion.( _also called freezing_ )
 
-But I will be using ___pyinstaller___ because it's easy to use plus it builds smaller executables.
+But I will be using ___pyinstaller___ here because it's easy to use plus it builds smaller executables.
 
 ```
 $ pip install pyinstaller
