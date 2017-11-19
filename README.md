@@ -37,7 +37,7 @@ $ pip install .
 * You can also use **xampp** or **wamp** to test it out in your local machine.
 * After you setup your server, copy the contents of **server_side_scripts** folder to _C:\xampp\htdocs_ or the _public_html_ folder in your hosting website.
 
-___Note that you can ignore these steps if your are using the offline version___
+* ___Note that you can ignore these steps if your are using the offline version___
 
 Once everything is set, run the _keylogger.py_ file
 
