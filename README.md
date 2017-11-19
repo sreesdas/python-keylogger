@@ -51,12 +51,12 @@ There is a kill-switch designed into the program. Pressing two times the ___back
 For practical purposes, its alwasy necessary to convert the .py scripts into .exe files.
 There are a dozen of tools available for this conversion.
 
-But I will be using ___pyinstaller___ which is easy to install and use plus it builds smaller executables.
+But I will be using ___pyinstaller___ because it's easy to use plus it builds smaller executables.
 
 ```
 $ pip install pyinstaller
 $ cd /folder/containing/your/py/script
-$ pyinstaller --onefile keylogger.py
+$ pyinstaller keylogger.py --onefile
 ```
 _It compiles a single .exe file which will be inside the dist folder_
 
